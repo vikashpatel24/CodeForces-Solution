@@ -18,4 +18,4 @@ int main()
         c++;
     }
     cout<<c<<endl;
-}
+} 
