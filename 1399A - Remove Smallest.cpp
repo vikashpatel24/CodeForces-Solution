@@ -37,4 +37,4 @@ int main()
             cout<<"YES"<<endl;
         }
     }
-}
+} 
