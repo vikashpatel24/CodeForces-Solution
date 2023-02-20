@@ -27,4 +27,4 @@ int main()
         minIndex++;
     }
     cout<<maxIndex+(n-1)-minIndex<<endl;
-}
+} 
