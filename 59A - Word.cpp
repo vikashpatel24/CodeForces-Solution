@@ -28,10 +28,3 @@ int main()
     else
     cout<<upper<<endl;
 }
-    
-
-
-
-
-
-
