@@ -20,4 +20,4 @@ int main()
         valsol++;
     }
     cout<<valsol<<endl;
-}
+} 
