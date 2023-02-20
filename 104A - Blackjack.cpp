@@ -14,7 +14,3 @@ int main()
     else
     cout << 4 << endl;
 }
-
-
-
-
