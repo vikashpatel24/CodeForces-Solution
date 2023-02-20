@@ -16,7 +16,3 @@ int main()
     else if(s1==s2)
     cout<<"0"<<endl;
 }
-
-
-
-
