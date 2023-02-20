@@ -23,4 +23,4 @@ int main()
         }
     }
     cout << amazing << endl;
-}
+} 
