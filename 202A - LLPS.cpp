@@ -27,4 +27,4 @@ string s;
     }
     
     cout << ans << '\n';
-}
+} 
