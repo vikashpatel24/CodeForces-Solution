@@ -56,9 +56,5 @@ int main()
         sum+=a[i][n/2];
         a[i][n/2]=0;
     }
-
-
     cout<<sum;
-
-    return 0;
 }
