@@ -20,4 +20,4 @@ int main(){
     }
 
     printf("%ld\n", output);
-}
+} 
