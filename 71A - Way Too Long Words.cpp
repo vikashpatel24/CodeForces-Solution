@@ -18,8 +18,3 @@ int main()
         cout<<word<<endl;
     }
 }
-
-
-
-
-
