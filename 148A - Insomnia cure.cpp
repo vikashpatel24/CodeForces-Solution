@@ -13,4 +13,4 @@ int main() {
     suffer++;
    }
    cout<<suffer<<endl;
-}
+} 
