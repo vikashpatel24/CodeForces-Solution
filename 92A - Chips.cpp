@@ -18,7 +18,3 @@ int main()
     }
     cout << m << endl;
 }
-
-
-
-
