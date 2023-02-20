@@ -9,7 +9,7 @@ main ()
   string s;
   cin >> s;
   int ans = 0;
-for (auto i:s)
+for (auto i : s)
     {
       if (i == '4' || i == '7')
 	ans++;
@@ -18,4 +18,4 @@ for (auto i:s)
     cout << "YES" << endl;
   else
     cout << "NO" << endl;
-}
+} 
