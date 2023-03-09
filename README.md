@@ -6,4 +6,4 @@
 ### If you like this repo please give a star and follow.
 
 
-# [![Hits](https://hits.sh/github.com/its-vikash/CodeForces-Solution.svg?style=for-the-badge&label=CodeForces%20Solutiion%20Views&extraCount=700&color=ffffff&labelColor=ffffff&logo=codeforces)](https://hits.sh/github.com/its-vikash/CodeForces-Solution/)
+# [![Hits](https://hits.sh/github.com/its-vikash/CodeForces-Solution.svg?style=for-the-badge&label=CodeForces%20Solution%20Views&extraCount=700&color=ffffff&labelColor=ffffff&logo=codeforces)](https://hits.sh/github.com/its-vikash/CodeForces-Solution/)
