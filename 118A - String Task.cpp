@@ -17,7 +17,7 @@ int main()
     for(auto i : s)
     {
         i = tolower(i);
-        if(i == 'a' || i == 'e' || i == 'i' || i == 'o' || i == 'u')
+        if(i == 'a' || i == 'e' || i == 'i' || i == 'o' || i == 'u' || i == 'y')
         continue;
         else
         {
