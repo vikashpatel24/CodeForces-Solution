@@ -35,15 +35,8 @@ int main()
             cin>>a[i];
             T_initial += a[i];
         }
-        sort(a, a+n);
-        for(int i=0; i<n; i++)
-        {
-            if(a[i]*n >= T_initial)
-            {
-                cout<<a[i]<<endl;
-                break;
-            }
-        }
+        int ans =  ceil((double)T_initial/n);
+        cout<<ans<<endl;
     }
     return 0;
 }
