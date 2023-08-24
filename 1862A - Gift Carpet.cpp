@@ -1,0 +1,56 @@
+//                                 ॐ नमः शिवाय
+#include<bits/stdc++.h>
+using namespace std;
+
+#define ll long long
+#define pb push_back
+#define ff first
+#define ss second
+#define mp make_pair
+ 
+// Code Written By: Vikash Patel
+// Codeforces Profile: https://codeforces.com/profile/vikashpatel
+
+int main()
+{
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    
+    // #ifndef ONLINE_JUDGE
+    // freopen("input.txt", "r", stdin);
+    // freopen("/Users/vikash/Desktop/output.txt", "w", stdout);
+    // #endif
+    
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        int n, m;
+        cin>>n>>m;
+        string carpet[n];
+        for(int i=0; i<n; i++)
+        {
+            cin>>carpet[i];
+        }
+        string vika = "vika";
+        int k = 0;
+        for(int i=0; i<m; i++)
+        {
+            
+            for(int j=0; j<n; j++)
+            {
+                if(carpet[j][i] == vika[k])
+                {
+                    k++;
+                    break;
+                }
+            }
+        }
+        if(k>=4)
+        cout<<"YES"<<endl;
+        else
+        cout<<"NO"<<endl;
+    }
+    return 0;
+}
