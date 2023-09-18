@@ -14,7 +14,7 @@ using namespace std;
 void solve()
 {
     int n;
-    cin>>n;
+    cin >> n;
     int a[n];
     for(int i=0; i<n; i++)
     {
@@ -22,23 +22,26 @@ void solve()
     }
     string s;
     cin>>s;
+    
     map<int, char> mp;
+    
     for(int i=0; i<n; i++)
     {
-        if(mp.find(s[i]) != mp.end())
+        if(mp.find(a[i]) != mp.end())
         {
-            if(mp[s[i]] != m[i])
+            if(mp[a[i]] != s[i])
             {
-                cout<<"NO"<<endl;
+                cout<<"NO\n";
                 return;
             }
         }
         else
         {
-            mp[s[i]] = m[i];
+            mp[a[i]] = s[i];
         }
     }
-    cout<<"YES"<<endl;
+    
+    cout<<"YES\n";
 }
 
 int main()
